@@ -1,23 +1,20 @@
 {
   "name": "zy",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "private": true,
   "author": {
-    "name": "Hunlongyu",
-    "email": "hunlongyu@gmail.com"
+    "name": "zhujinrun",
+    "email": "zhujinrun@gmail.com"
   },
   "description": "ZY Player 资源播放器",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "electron:build": "vue-cli-service electron:build",
-    "dev": "vue-cli-service electron:serve",
+    "serve": "vue-cli-service electron:serve",
+    "build": "vue-cli-service electron:build",
+    "dist": "vue-cli-service electron:build --win --ia32",
+    "dist:x64": "vue-cli-service electron:build --win --x64",
+    "publish": "vue-cli-service electron:build --publish always",
     "postinstall": "electron-builder install-app-deps",
-    "postuninstall": "electron-builder install-app-deps",
-    "electron:generate-icons": "electron-icon-builder --input=./public/icon.png --output=build --flatten",
-    "release": "vue-cli-service electron:build -p always",
-    "dist": "vue-cli-service electron:build --win --ia32"
+    "build-icons": "electron-icon-builder --input=./public/icon.png --output=./public --flatten"
   },
   "main": "background.js",
   "dependencies": {

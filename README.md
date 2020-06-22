@@ -3,22 +3,22 @@
 </p>
 <p align="center">
 <a href="http://zyplayer.fun/" target="_blank">官网</a>
-<a href="https://github.com/Hunlongyu/ZY-Player/issues" target="_blank">反馈</a>
+<a href="https://github.com/zhujinrun/ZY-Player/issues" target="_blank">反馈</a>
 </p>
 <p align="center">
 <img src="https://forthebadge.com/images/badges/built-with-love.svg">
 <p>
 <p align="center">
-<img src="https://github.com/aleen42/badges/raw/master/src/visual_studio_code_flat_square.svg?sanitize=true">
-<img src="https://github.com/aleen42/badges/raw/master/src/vue_flat_square.svg?sanitize=true">
-<img src="https://github.com/aleen42/badges/raw/master/src/javascript_flat_square.svg?sanitize=true">
-<img src="https://github.com/aleen42/badges/raw/master/src/eslint_flat_square.svg?sanitize=true">
+<img src="https://aleen42.github.io/badges/src/visual_studio_code_flat_square.svg?sanitize=true">
+<img src="https://aleen42.github.io/badges/src/vue_flat_square.svg?sanitize=true">
+<img src="https://aleen42.github.io/badges/src/javascript_flat_square.svg?sanitize=true">
+<img src="https://aleen42.github.io/badges/src/eslint_flat_square.svg?sanitize=true">
 </p>
 <p align="center">
-<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/Hunlongyu/ZY-Player/total?style=for-the-badge">
-<img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/Hunlongyu/ZY-Player?include_prereleases&style=for-the-badge">
-<img alt="GitHub" src="https://img.shields.io/github/license/Hunlongyu/ZY-Player?style=for-the-badge">
-<img src="https://img.shields.io/github/workflow/status/Hunlongyu/ZY-Player/release-build?style=for-the-badge">
+<img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/zhujinrun/ZY-Player/total?style=for-the-badge">
+<img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/zhujinrun/ZY-Player?include_prereleases&style=for-the-badge">
+<img alt="GitHub" src="https://img.shields.io/github/license/zhujinrun/ZY-Player?style=for-the-badge">
+<img src="https://img.shields.io/github/workflow/status/zhujinrun/ZY-Player/release-build?style=for-the-badge">
 <p>
 
 
@@ -43,21 +43,6 @@
 
 > Tips: 资源加载不出来时, 点击列表下方链接, 浏览器打开一下网站. 原理是需要通过网站的人机检测.
 
-<!-- ### 全新版本,从心出发
-
-新版本开发计划已写好, 由于功能很多,且还有其他平台, 个人精力终归有限, 所以招募小伙伴, 一起完成这个项目.
-
-主要招募: 移动端(IOS, Android), 以及TV端(Android)
-
-我会提供接口, 接口文档, 桌面端与移动端交互说明
-
-欢迎各路大神参与开发维护项目. 也欢迎吃瓜群众入群尝鲜测试, 提出建议.
-
-微信群: 
-<p>
-<img width="256" src="https://i.loli.net/2020/06/17/uhYeHUVOrkB8fxL.jpg" >
-</p> -->
-
 
 #### 全局快捷键:
 
@@ -70,13 +55,6 @@
 | `Shift + ↑` | 增加倍速 + 0.25 |    √    |   √    |
 | `Shift + ↓` | 减少倍速 - 0.25 |    √    |   √    |
 
-#### 下载:
-
-1. [Github -- 官方下载(最新版)](https://github.com/Hunlongyu/ZY-Player/releases)
-
-2. [蓝奏云 -- 快速下载(老版本)](https://www.lanzous.com/b04s6a3re) 密码:95px
-
-3. 适用于32位操作系统的x86软件,在蓝奏云网盘里, 后缀名: ZY Player * 32位.exe
 
 #### 截图: 
 
@@ -99,6 +77,10 @@
 ![07绿色.png](https://i.loli.net/2020/05/18/4d2UnFRECm7vyJQ.png)
 8. 粉色色主题皮肤 ⇣ ↓
 ![08粉色.png](https://i.loli.net/2020/05/18/PLlEfzd8mSC9vMW.png)
+
+### ZY Player Android 资源播放器
+> 基于ZY-Player开发的Android版本视频播放器，免费无广告   
+[https://github.com/vicedev/ZY-Player-Android](https://github.com/vicedev/ZY-Player-Android)
 
 ### 重要: 
 所有资源来自网上, 该软件不参与任何制作, 上传, 储存, 下载等内容. 该软件仅供学习参考, 请于安装后24小时内删除.

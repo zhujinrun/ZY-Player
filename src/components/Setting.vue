@@ -4,8 +4,8 @@
       <div class="logo"><img src="@/assets/image/logo.png"></div>
       <div class="info">
         <a @click="linkOpen('http://zyplayer.fun/')">{{$t('website')}}</a>
-        <a @click="linkOpen('https://github.com/Hunlongyu/ZY-Player')">Github</a>
-        <a @click="linkOpen('https://github.com/Hunlongyu/ZY-Player/issues')">v{{pkg.version}} {{$t('issues')}}</a>
+        <a @click="linkOpen('https://github.com/zhujinrun/ZY-Player')">Github</a>
+        <a @click="linkOpen('https://github.com/zhujinrun/ZY-Player/issues')">v{{pkg.version}} {{$t('issues')}}</a>
       </div>
       <div class="change">
         <div class="zy-select" @mouseleave="show.language = false">

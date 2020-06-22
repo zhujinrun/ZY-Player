@@ -11,18 +11,21 @@ module.exports = {
           oneClick: false,
           allowToChangeInstallationDirectory: true
         },
-        appId: 'com.hunlongyu.zy',
-        copyright: 'Copyright @ 2020 Hunlongyu',
+        appId: 'com.zhujinrun.zy',
+        copyright: 'Copyright @ 2020 zhujinrun',
         productName: 'ZY Player',
         publish: [
           {
             provider: 'github',
-            owner: 'Hunlongyu',
-            repo: 'ZY-Player'
+            repo: 'ZY-Player',
+            owner: 'zhujinrun',
+            // token: 'xxxxxxxxxxxxxxx',
+            releaseType: 'release',
+            publishAutoUpdate: true
           }
         ],
         mac: {
-          icon: 'build/icon/icon.icns',
+          icon: 'public/icons/icon.icns',
           category: 'public.app-category.developer-tools',
           target: 'default',
           extendInfo: {
@@ -30,11 +33,11 @@ module.exports = {
           }
         },
         win: {
-          icon: 'build/icons/icon.ico',
+          icon: 'public/icons/icon.ico',
           target: 'nsis'
         },
         linux: {
-          icon: 'build/icons/'
+          icon: 'public/icons/'
         },
         snap: {
           publish: ['github']
