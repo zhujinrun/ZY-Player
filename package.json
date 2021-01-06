@@ -18,7 +18,7 @@
   },
   "main": "background.js",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "dexie": "^2.0.4",
     "electron-updater": "^4.3.1",
